@@ -1,0 +1,192 @@
+*{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    margin-right:2rem;
+    margin-left: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-1{
+    height:40px;
+    background-color: rgb(57, 82, 121);
+    border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color:white;
+    transition: 0.5s;
+}
+
+.button-1:hover{
+    background-color:white;
+    color:rgb(57, 82, 121);
+    cursor: pointer;
+}
+
+nav{
+    margin-top:1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+nav #nav-icon{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+nav #nav-sections{
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+
+nav #nav-sections li{
+    color:red;
+    margin-right: 20px;
+}
+
+nav #nav-sections li a{
+    color:rgb(146, 130, 130);
+    transition: 1s;
+}
+
+nav #nav-sections li a:hover{
+    color:black;
+    transition: all 0.3s ease 0;
+}
+
+
+
+#projects{
+    text-align: center;
+    padding:2rem;
+}
+
+
+#projects #all-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.project-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    display: none;
+}
+
+.project:hover{
+    opacity: 80%;
+}
+
+.project img{
+    object-fit: cover;
+    width:300px;
+    height:300px;
+}
+
+
+#project-popup{
+    height:100%;
+    width: 100%;
+    background: rgba(0,0,0, 0.9);
+    position:fixed;
+    left:0;  
+    top:110%;  
+    transition: ease-in-out .7s;
+  }
+
+
+
+
+  .arrows-down{
+      cursor: pointer;
+    background: white;
+    position: absolute;
+    width:3rem;
+    height:3rem;
+    border-radius: 100%;
+    border: 1px solid black;
+    top:-20px;
+    left:45%;
+}
+
+
+
+  .arrow-down{
+      position: relative;
+      top:11px;
+      width: 34px;
+      height: 21px;
+      background-image: url('img/utils/arrow.png');
+      margin:auto;
+  }
+
+
+  .arrow-2{
+    margin-top: -10px;
+  }
+
+
+
+
+  /**Contact Form*/
+
+  .contact-form-general{
+      padding:1rem;
+      width: 100%;
+      height: 100%;
+
+  }
+
+  .form-container{
+    padding: 2rem;
+    border: 1px black dotted;
+    border-radius:10px;
+    text-align: center;  
+    max-width: 500px;
+    margin: auto;
+  }
+
+
+  .field{
+      margin-top:1.5rem;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .field input{
+      height: 35px;
+      font-size: 18px;
+
+  }
+
+  .field input:focus{
+    outline: none !important;
+    border:1.5px solid red;
+    box-shadow: 0 0 10px #719ECE
+  }
+
+  .field textarea{
+    font-size: 18px;
+
+  }
+
+  .field textarea:focus{
+    outline: none !important;
+    border:1.5px solid red;
+    box-shadow: 0 0 10px #719ECE
+  }
