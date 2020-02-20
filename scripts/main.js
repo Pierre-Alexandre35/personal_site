@@ -1,3 +1,6 @@
+
+
+
 const project = document.querySelectorAll(".project");
 
 const curtain = document.querySelector("#project-popup");
@@ -60,7 +63,6 @@ window.addEventListener("scroll", e =>{
 
 
 
-const modalTriggerButton = document.querySelector(".open-modal");
 
 const modal = document.querySelector("#modal");
 
@@ -68,9 +70,7 @@ const modalClose = document.querySelector(".close-modal");
 
 
 
-modalTriggerButton.addEventListener("click", e =>{
-    toggleModal();
-});
+
 
 modalClose.addEventListener("click", e =>{
     toggleModal();
