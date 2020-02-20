@@ -301,6 +301,11 @@ nav #nav-sections li a:hover {
     margin-top: 5px;
 }
 
+.about-intro li a{
+    color: black;
+
+}
+
 .about-intro .picture-container {
   padding: 2rem;
   position: relative;
