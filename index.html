@@ -49,17 +49,18 @@
                 </div>
                 <div class="bio">
                     <p>
-                        Hi! My name is Pierre-Alexandre and I am currently a second year M.S in
-                        Computer Science candidate at <b> Northeastern University</b> .
-                        I was born and grew up in Sixt-Sur-Aff, less than 10 miles away from Carentoir,
-                        where Ubisoft was founded by Guillemot brothers in 1986.</p>
+                        Hi! My name is Pierre-Alexandre and I am currently a second year Master student in
+                        Computer Science at <b> Northeastern University</b>.<br><br>
+                        I was born and grew up in Brittany (France), less than 10 miles away from Carentoir,
+                        where Ubisoft was founded by Guillemot brothers in 1986.<br>
+                    </p>
 
-                    <p>I am currently working on :</p>
+                    <p>I am currently working on:</p>
                     <ul>
-                        <li><a href="http://www.ccs.neu.edu/home/vip/teach/IRcourse/3_crawling_snippets/HW3/hw3A.html">Implementing a topic-specific web crawler from from scratch</a></li>
-                        <li><a href="https://github.com/gortonator/CS6510-Advanced-Software-Development">Back-end development for the User microservice of ClimateTree </a></li>
+                        <li>Implementing a focused web crawler from from scratch <a href="http://www.ccs.neu.edu/home/vip/teach/IRcourse/3_crawling_snippets/HW3/hw3A.html">(see details)</a></li>
+                        <li>Back-end development for the User microservice of ClimateTree <a href="https://github.com/gortonator/CS6510-Advanced-Software-Development">(see details)</a></li>
                         <li>Teaching a friend basic algorithms</li>
-                        <li>Working part-time at my university as a Information Technology Technician</li>
+                        <li>Working part-time for the Information Technology department at my university</li>
                         <li>Responsive version of this website</li>
                     </ul>
                 </div>
@@ -71,7 +72,7 @@
     <div id="projects" class="temp">
         <h1 class="section-title">Projects</h1>
         <ul id="all-projects">
-            <li class="project">
+            <li class="project" id="musikoo">
                 <a class="see-project-details" href="#">
                     <img src="./img/projects/musikoo.jpg" alt="musikoo app">
                     <div class="project-intro">
@@ -81,7 +82,7 @@
                     </div>
                 </a>
             </li>
-            <li class="project">
+            <li class="project" id="imagen">
                 <a class="see-project-details" href="#">
                     <img src="./img/projects/imagen.jpeg" alt="imagen app">
                     <div class="project-intro">
@@ -135,7 +136,7 @@
                             <a href="https://www.linkedin.com/in/pierrealexandremousset">LinkedIn</a>
                         </div>
                     </div>
-                    <form method="POST" onsubmit='return validateForm()' action="http://formspree.io/pamousset01@gmail.com"
+                    <form method="POST" onsubmit='return validateForm()' action="https://formspree.io/pamousset01@gmail.com"
                         method="post " id="contact-form">
                         <div class="input-field">
                             <input class="user-input" type="text" name="name" autocomplete="off" required>
@@ -172,11 +173,58 @@
 
 
 
-        <div id="modal">
-            <div class="modal-content" id="modal-content">
+        <div class="modal" id="musikoo">
+            <div class="modal-content">
                 <a class="close-modal"></a>
                 <div class="modal-intro">
                     <h1 class="title">Musikoo - www.musikoo.xyz</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mmao_xt6-KQ" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="project-links">
+                    <button onclick="window.location.href = 'https://github.com/Pierre-Alexandre35/Musikoo';" class="btn btn-1 btn-sep fab fa-github">See code on github</button>
+                    <button onclick="window.location.href = 'https://musikoo.xyz';" class="btn btn-3 btn-sep fas fa-mobile">Visit Website</button>
+                </div>
+
+                <div class="modal-description">
+                    <div>
+                        <h2>Description</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ipsum repellendus eveniet
+                            omnis similique sunt iusto! Magnam asperiores quod cupiditate!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente, perspiciatis quae
+                            non beatae dignissimos.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam provident itaque
+                            necessitatibus fugit placeat impedit error consequatur.</p>
+                    </div>
+                    <div>
+                        <h2>Technologies</h2>
+                        <ul class="technologies">
+                            <li class="technology">
+                                <i class="icon devicon-php-plain"></i>
+                            </li>
+                            <li class="technology">
+                                <i class="icon devicon-javascript-plain colored"></i>
+                            </li>
+                            <li class="technology">
+                                <i class="icon devicon-html5-plain-wordmark colored"></i>
+                            </li>
+                            <li class="technology">
+                                <i class="icon devicon-css3-plain-wordmark colored"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-links">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="imagen">
+            <div class="modal-content">
+                <a class="close-modal"></a>
+                <div class="modal-intro">
+                    <h1 class="title">Imagen - www.musikoo.xyz</h1>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/mmao_xt6-KQ" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>

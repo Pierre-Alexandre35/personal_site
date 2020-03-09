@@ -12,6 +12,7 @@ const projectContainer = document.querySelector(".project-container");
 
 project.forEach((project)=>{
     project.addEventListener("click", e =>{
+        console.log(e.currentTarget.id)
         toggleModal();
     })
 });
@@ -64,7 +65,7 @@ window.addEventListener("scroll", e =>{
 
 
 
-const modal = document.querySelector("#modal");
+const modal = document.querySelector(".modal");
 
 const modalClose = document.querySelector(".close-modal");
 
@@ -92,7 +93,6 @@ function toggleModal(){
             document.body.style.overflow = "initial";
         },550)
     } else {
-        console.log("ee")
         modal.style.display = "flex";
         modal.classList.add("modal-show");
         /**document.body.style.overflow = "hidden";*/

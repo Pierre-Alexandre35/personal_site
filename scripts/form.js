@@ -1,5 +1,4 @@
 const form = document.querySelector("#contact-form");
-
 const nameField = document.querySelector(".field-name");
 const emailField = document.querySelector(".field-email");
 const messageField = document.querySelector(".field-message");
