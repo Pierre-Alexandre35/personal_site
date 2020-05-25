@@ -19,7 +19,7 @@ nav{
     width: 100%;
     position: sticky;
     top: 0;
-    background: #151515;
+    background: #3e3e3e;
     padding: 5px 40px;
     transition: opacity 0.5s;
     z-index: 100;
@@ -84,33 +84,13 @@ nav{
   nav ul li.btn.hide i:before{
     content: '\f00d';
   }
-  @media all and (max-width: 900px){
-    nav{
-      padding: 5px 30px;
-    }
-    nav ul li.items{
-      width: 100%;
-      display: none;
-    }
-    nav ul li.items.show{
-      display: block;
-    }
-    nav ul li.btn{
-      display: block;
-    }
-    nav ul li.items:hover{
-      border-radius: 5px;
-      box-shadow: inset 0 0 5px #33ffff,
-                  inset 0 0 10px #66ffff;
-    }
-    nav ul li.items:hover:after{
-      opacity: 0;
-    }
-  }
 
   section{
       padding-top: 4rem;
-      max-width: 1150px;
+      padding-bottom: 0;
+      padding-left: 2rem;
+      padding-right: 2rem;;
+      max-width: 1180px;
       overflow: hidden;
       z-index: 10;
   }
@@ -154,7 +134,7 @@ nav{
 .my-picture img{
     width: 260px;
     height: auto;
-}
+  }
 
 
 
@@ -165,13 +145,15 @@ nav{
     justify-content: center;
 }
 
-
+.projects  .middle{
+  display: none;
+}
 
 .projects .cards .card{
     margin:2rem 0;
     background-color: rgb(200, 199, 199);
     width: 760px;
-    height: 450px;
+    min-height: 450px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
     padding:1.6rem 1rem 1.2rem 1rem;
 }
@@ -195,11 +177,11 @@ font-size: 16px;
   letter-spacing: 1px;
 }
 
-.projects .cards .card .right .project-links{
+.projects .cards .card .project-links{
   text-align: center;
 }
 
-.projects .cards .card .right .project-links a{
+.projects .cards .card .project-links a{
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -210,7 +192,7 @@ font-size: 16px;
   font-size: 16px;
 }
 
-.projects .cards .card .right .project-links .fa-github-square{
+.projects .cards .card .project-links .fa-github-square{
   transform: scale(2.8);
 }
 
@@ -261,14 +243,14 @@ max-height:100%;
   margin: 25px 0 0 10px;
 }
 
-.card .left .technologies ul{
+.card .technologies ul{
   display: flex;
   justify-content: center;
   margin-top:15px;
 }
 
 
-.card .left .technologies ul .fab{
+.card .technologies ul .fab{
   font-size: 25px;
   line-height: 45px;
   transition: .6s;
@@ -277,7 +259,7 @@ max-height:100%;
 
 
 
-.card .left .technologies ul li{
+.card .technologies ul li{
   position: relative;
   display: block;
   width: 45px;
@@ -395,6 +377,9 @@ max-height:100%;
   color:#000;
 }
 
+.fa-bars{
+  color: white;
+}
 
 
 .left ul a{
@@ -535,7 +520,7 @@ max-height:100%;
 
 footer{
   margin-top:3rem;
-  background-color: black;
+  background-color: #3e3e3e;
   justify-content: center;
   color: white;
   font-size: 12px;
@@ -547,40 +532,168 @@ footer p{
   margin-bottom: 5px;
 }
 
+
+
+
+
+@media all and (max-width: 900px){
+  section{
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 2rem;
+  }
+  
+
+  h1{
+    text-align: center;
+
+  }
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+  nav ul li.btn{
+    display: block;
+  }
+  nav ul li.items:hover{
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff,
+                inset 0 0 10px #66ffff;
+  }
+  nav ul li.items:hover:after{
+    opacity: 0;
+  }
+
+  .about .container .infos{
+    margin-bottom: 20px;
+  }
+
+  .about .container .infos p{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+
+
+  .card .middle{
+    display: block;
+  }
+
+  .card .left{
+    display: none;
+  }
+
+  .card .right{
+    display: none;
+  }
+
+  .card .middle-description{
+    margin-top:10px;
+    text-align: center;
+  }
+
+  .card .technologies{
+    margin-top:20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card .technologies h3{
+    font-weight:300;
+
+  }
+
+  .projects .cards .card .project-links{
+    margin-top: 35px;
+  }
+
+  .middle-container{
+    width: 100%;
+  }
+
+  .middle-container img{
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+
 @media screen and (max-width: 762px) {
 
   .about{
-      margin: 0 16px;
+      margin: 0 10px;
   }
 
-  .projects .cards .card{
-      margin:25px;
-      background-color: red;
-      width: 270px;
-      height: 380px;
+  .about p{
+    font-size: 17px;
   }
+
 
   .contact-window{
-    margin: auto;
+    margin: auto 0px;
     height: auto;
-    width: 310px;
+    width: 100%;
     border-radius: 15px;
     position: relative;
     color:white;
   }
+
   .contact-window .contact-infos .left{
+    width: 100%;
     display: block;
     justify-content: center;
     text-align: center;
     margin: auto;
   }
 
+  .contact-window .left ul{
+    justify-content: space-evenly;
+  }
+
+
   .additional-title{
+    margin-top: 12px;
+    margin-bottom: 5px;
     display: block;
   }
 
    h2{
-    padding: 20px 0;
+    padding: 8px 0;
   }
   
+}
+
+.icon{
+  height: 65%;
+  width: auto;
+}
+
+
+.sql-icon{
+  margin-top: 7px;
+  margin-left: 4px;
+}
+
+.spring-boot-icon{
+  border-radius: 25%;
+  margin-top: 8px;
+  margin-right:1px;
+}
+
+
+.post-gres-icon{
+  margin-top: 9px;
+  margin-right: 2px;
+}
+
+.antlr-icon{
+  margin-top: 8px;
+  height: 65%;
+  width: auto;
 }

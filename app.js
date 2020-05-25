@@ -1,5 +1,4 @@
 function toggleNav(){
-    console.log("dds")
         items = document.querySelectorAll(".items");
         for (i = 0; i < items.length; ++i) {
             items[i].classList.toggle("show");
@@ -9,6 +8,18 @@ function toggleNav(){
 
 }
 
+function smoothScrool(){
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    });
+}
 
 function navEffet(){
     let lastScrool;
@@ -29,8 +40,14 @@ function navEffet(){
 
 
 const app = () =>{
-    navEffet();
-}
+    if(window.screen.width > 900){
+        navEffet();
 
+    }
+    else {
+        console.log("ddd")
+    }
+    smoothScrool();
+}
 
 app()
