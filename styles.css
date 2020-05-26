@@ -129,11 +129,17 @@ nav{
 
 .about .container .my-picture {
     margin: auto;
+
 }
 
 .my-picture img{
-    width: 260px;
+    width: 280px;
     height: auto;
+    bottom: -100px;
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgb(200, 199, 199);
   }
 
 
