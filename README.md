@@ -7,9 +7,8 @@ www.pierre-alexandre.io
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
 [![HitCount](http://hits.dwyl.com/Pierre-Alexandre35/Personal_Website.svg)](http://hits.dwyl.com/Pierre-Alexandre35/Personal_Website)
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
-<img alt="GitHub Release Date" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
 
-
+<img alt="GitHub Release Date" src="https://img.shields.io/github/v/release/Pierre-Alexandre35/Personal_website>
 
 ## Description
 Personal website of Pierr-Alexandre Mousset, Software Developer. This website is aiming to introduce myself and display some of my work. The website has designed, built and deployed by myself. The website is currently static and I am using Formspree as a form backend, API and email service for my contact form. 
