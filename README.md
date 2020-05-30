@@ -7,7 +7,7 @@ www.pierre-alexandre.io
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
 [![HitCount](http://hits.dwyl.com/Pierre-Alexandre35/Personal_Website.svg)](http://hits.dwyl.com/Pierre-Alexandre35/Personal_Website)
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
-
+<img alt="GitHub Release Date" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
 
 
 
