@@ -703,3 +703,14 @@ footer p{
   height: 65%;
   width: auto;
 }
+
+
+.error-section{
+  text-align: left;
+}
+
+.error-section a{
+  text-decoration: none;
+  padding: 18px;
+  font-size: 16px;
+}
