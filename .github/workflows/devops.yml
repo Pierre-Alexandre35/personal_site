@@ -1,16 +1,14 @@
 name: Build and Deploy
 
 on:
-    push:
-        branches:
-            -master 
-
-jobs:
-    test_pull_request:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@master
+    pull_request:
+      branches: [main]
+      types: [opened, synchronize, closed]
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
           
     
 
