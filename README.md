@@ -8,10 +8,12 @@ www.pierre-alexandre.io
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
 <img alt="GitHub code version" src="https://img.shields.io/badge/version-2.0-pink">
 ## Description
-Personal website of Pierr-Alexandre Mousset, Software Developer. This website is aiming to introduce myself and display some of my work. The website has designed, built and deployed by myself. The website is currently static and I am using Formspree as a form backend, API and email service for my contact form. 
+Personal website of Pierre-Alexandre Mousset, Software Developer. This website is aiming to introduce myself and display some of my work. The website has designed, built and deployed by myself. The website is currently static and I am using Formspree as a form backend, API and email service for my contact form. 
 
 ## Roadmap
+- Update profile picture 
+- Make UI design changes for the "About Me" section
 - Add the search engine project
 - Add a blank target for every links
 - Redesign some of the buttons (color and hover effect) 
-- Add a news section with personnal articles
+- Add a news section with personnal articles / videos 
