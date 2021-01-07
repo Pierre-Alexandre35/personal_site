@@ -680,8 +680,12 @@ footer p{
   width: auto;
 }
 
+.mongo-icon, .cloud-run{
+  margin-top: 8px;
+  margin-left: 1px;
+}
 
-.sql-icon{
+.sql-icon, .flask-icon{
   margin-top: 7px;
   margin-left: 4px;
 }
@@ -720,3 +724,30 @@ footer p{
   justify-content: center;
   margin: auto;
 }
+
+
+
+.texty-container{
+  height: 70% !important;
+  width: 60% !important;
+
+}
+
+
+.texty-logo{
+  margin-left: 40%;
+}
+
+
+
+.texty-mobile-container{
+  text-align: center;
+  
+}
+
+.texty-mobile-container img{
+  width: 200px !important;
+  height: auto !important;
+}
+
+
