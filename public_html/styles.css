@@ -108,6 +108,66 @@ nav{
   }
 
 
+.small-headline{
+  margin-bottom: 1rem;
+  font-size: 17px;
+  color: red;
+}
+
+
+.large-headline{
+  font-size: 42px;
+}
+
+.personal-details{
+  margin: 0 7rem;
+}
+.personal-details ul{
+  display: flex;
+}
+
+.personal-details ul li{
+  padding:20px;
+  display: inline;
+}
+
+.personal-details ul li{
+  margin:5px;
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+}
+
+.personal-details-img{
+  float: right;
+  width: 33%;
+  margin-top: 5px;
+}
+
+
+.personal-details ul li h3{
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.personal-details-text{
+  float: left;
+  width: 70%;
+}
+.personal-details ul li div p{
+  font-size: 14px;
+}
+
+.personal-details ul li img{
+  height: 50px;
+  width: auto;
+  float: right;
+  background: pink;
+}
+
+
+<ul>
+<li><div><h3> 
   .about, .projects, .contact{
     margin: auto;
   }
@@ -136,10 +196,6 @@ nav{
     width: 280px;
     height: auto;
     bottom: -100px;
-    border-radius: 50%;
-    border-style: groove;
-    border-width: 10px;
-    border-color: rgb(200, 199, 199);
   }
 
 
