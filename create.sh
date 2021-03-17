@@ -1,3 +1,6 @@
+: '
+Bash script to upload (add, delete, modify) files on a Google Cloud Storage (GCS) bucket
+'
 
 
 # set website config

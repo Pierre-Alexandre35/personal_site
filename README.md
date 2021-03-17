@@ -10,6 +10,10 @@ www.pierre-alexandre.io
 ## Description
 Personal website of Pierre-Alexandre Mousset, Software Developer. This website is aiming to introduce myself and display some of my work. The website has designed, built and deployed by myself. The website is currently static and I am using Formspree as a form backend, API and email service for my contact form. 
 
+
+sudo gsutil web set -m index.html -e error404.html gs://pierre-alexandre.io
+
+
 ## Roadmap
 - Update profile picture 
 - Make UI design changes for the "About Me" section
