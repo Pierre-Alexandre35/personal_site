@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## 2021-03-16
 
 - Updated the "About Me" section: new format, new profile picture and different layout 
+- Setting up the custom 404 page on GCS 
 - Added comments to create.sh 
 - Generated a CHANGELOG file 
 

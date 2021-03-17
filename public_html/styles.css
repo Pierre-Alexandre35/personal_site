@@ -85,6 +85,18 @@ nav{
     content: '\f00d';
   }
 
+.content {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    max-width: 960px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+}
+
+
+
   section{
       padding-top: 4rem;
       padding-bottom: 0;
@@ -120,27 +132,28 @@ nav{
 }
 
 .personal-details{
-  margin: 0 7rem;
+  margin: 0 10px;
 }
 .personal-details ul{
   display: flex;
-}
-
-.personal-details ul li{
-  padding:20px;
-  display: inline;
-}
-
-.personal-details ul li{
-  margin:5px;
-  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-  min-width: 200px;
+}
+
+
+
+.personal-details ul li{
+  margin:8px;
+  padding:15px;
+  width: 250px;
+  min-width: 250px;
+
 }
 
 .personal-details-img{
   float: right;
-  width: 33%;
+  width: 28%;
   margin-top: 5px;
 }
 
@@ -152,22 +165,34 @@ nav{
 
 .personal-details-text{
   float: left;
-  width: 70%;
+  width: 72%;
 }
+
+.container{
+  margin-bottom: 50px;
+}
+
 .personal-details ul li div p{
   font-size: 14px;
 }
 
 .personal-details ul li img{
-  height: 50px;
+  max-height: 50px;
   width: auto;
   float: right;
   background: pink;
 }
 
+.my-picture{
+  float: right;
+  max-width: 260px;
+  height: auto;
+}
 
-<ul>
-<li><div><h3> 
+
+
+
+
   .about, .projects, .contact{
     margin: auto;
   }
