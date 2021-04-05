@@ -13,3 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added comments to create.sh 
 - Generated a CHANGELOG file 
 
+
+## 2021-04-05
+
+- Added last updated on the footer 

@@ -25,6 +25,13 @@ nav{
     z-index: 100;
   }
 
+  nav .nav-update{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 0px;
+    margin:0px;
+  }
   nav ul{
     list-style: none;
     display: flex;
