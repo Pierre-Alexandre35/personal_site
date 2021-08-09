@@ -9,7 +9,8 @@ www.pierre-alexandre.io
 
 
 ## Description
-Personal website of Pierre-Alexandre Mousset, Software Developer. This website is aiming to introduce myself and display some of my work. The website has designed, built and deployed by myself. The website is currently static and I am using Formspree as a form backend, API and email service for my contact form. 
+Source code for my personnal website where I am sharing my personnal projects. 
+This website is 100% static and updated on a regular basis. I am also using my personnal website to learn more about SEO and search engine related topics. 
 
 
 ## Architecture
