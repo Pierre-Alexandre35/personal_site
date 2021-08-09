@@ -2,7 +2,6 @@
 Bash script to upload (add, delete, modify) files on a Google Cloud Storage (GCS) bucket
 '
 
-
 # set website config
 gsutil web set -m index.html -e 404.html gs://pierre-alexandre.io
 
