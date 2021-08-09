@@ -14,7 +14,7 @@ Personal website of Pierre-Alexandre Mousset, Software Developer. This website i
 
 ## Architecture
 
-![alt text](docs:architecture.png)
+![alt text](docs/architecture.png)
 
 
 ## Roadmap
