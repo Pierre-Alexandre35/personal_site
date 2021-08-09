@@ -10,7 +10,7 @@ www.pierre-alexandre.io
 
 ## Description
 Source code for my personnal website where I am sharing my personnal projects. 
-This website is 100% static and updated on a regular basis. I am also using my personnal website to learn more about SEO and search engine related topics. 
+This website is 100% static and updated on a regular basis. I am also using my personnal website to learn more about SEO and search engine related topics and improve my web design skills.  
 
 
 ## Architecture
