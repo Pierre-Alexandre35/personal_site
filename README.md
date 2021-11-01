@@ -24,4 +24,4 @@ This website is 100% static and updated on a regular basis. I am also using my p
 - Add the search engine project
 - Add a blank target for every links
 - Redesign some of the buttons (color and hover effect) 
-- Add a news section with personnal articles / videos 
+- Add a news section with personnal articles / videos
