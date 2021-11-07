@@ -1,6 +1,6 @@
 # Personal_Website 💻 
 - Production website (Google Cloud Storage): [pierre-alexandre.io](https://pierre-alexandre.io)
-- Statging website (Github Pages): [https://pierre-alexandre35.github.io/pierre-alexandre.io](https://pierre-alexandre35.github.io/pierre-alexandre.io/public_html/)
+- Staging website (Github Pages): [pierre-alexandre35.github.io/pierre-alexandre.io](https://pierre-alexandre35.github.io/pierre-alexandre.io/public_html/)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
