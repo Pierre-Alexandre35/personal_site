@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/website.svg?color=ff69b4&url=https://pierre-alexandre.io/" alt="Website shields.io"></a>
+  <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/website.svg?color=60c454&url=https://pierre-alexandre.io/" alt="Website shields.io"></a>
   <a href="https://github.com/Pierre-Alexandre35/pierre-alexandre.io/actions/workflows/main.yml"><img src="https://github.com/Pierre-Alexandre35/pierre-alexandre.io/actions/workflows/main.yml/badge.svg" alt="Github Actions CI"></a>
     <a href="https://shields.io/"><img src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=blue" alt="GitHub code size in bytes"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
