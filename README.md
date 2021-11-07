@@ -1,12 +1,11 @@
 # Personal_Website 💻 
-- Production website (Google Cloud Storage): [pierre-alexandre.io](https://pierre-alexandre.io)
-- Staging website (Github Pages): [pierre-alexandre35.github.io/pierre-alexandre.io](https://pierre-alexandre35.github.io/pierre-alexandre.io/public_html/)
-
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Website shields.io](https://img.shields.io/website.svg?color=ff69b4&url=https://pierre-alexandre.io/)](http://pierre-alexandre.io/)
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
 <img alt="GitHub code version" src="https://img.shields.io/badge/version-2.0-pink">
+<br>
+- Production website (Google Cloud Storage): [pierre-alexandre.io](https://pierre-alexandre.io)
+- Staging website (Github Pages): [pierre-alexandre35.github.io/pierre-alexandre.io](https://pierre-alexandre35.github.io/pierre-alexandre.io/public_html/)
 
 
 ## Description
