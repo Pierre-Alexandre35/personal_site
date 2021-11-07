@@ -24,9 +24,12 @@ This website is 100% static and updated on a regular basis. I am also using my p
 
 
 ## Roadmap
-- Update profile picture 
-- Make UI design changes for the "About Me" section
-- Add the search engine project
-- Add a blank target for every links
-- Redesign some of the buttons (color and hover effect) 
-- Add a news section with personnal articles / videos
+- Fix some broken links for some of my projects
+- Fix navbar toggle for the mobiel version
+- Refactor public html code:
+    - Review naming for classes
+    - Only use classes rather than a mix of classes + IDs
+- Build a small shell script to merge multiple HTML files into a single file (in order to split to large index.html in multiple files during development)
+- Missing documentation for some JavaScript functions
+- Find a html, css and js linter
+- Refactor css code especially for reusability
