@@ -1,9 +1,21 @@
-# Personal_Website 💻 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Website shields.io](https://img.shields.io/website.svg?color=ff69b4&url=https://pierre-alexandre.io/)](http://pierre-alexandre.io/)
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=red">
-<img alt="GitHub code version" src="https://img.shields.io/badge/version-2.0-pink">
-<br>
+<p align="center"><a href="https://pierre-alexandre.io" target="_blank" rel="noopener noreferrer"><img width="100" src="docs/logo.png" alt="pierre-alexandre.io logo"></a></p>
+
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="http://pierre-alexandre.io/" alt="Coverage Status"></a>
+  <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/website.svg?color=ff69b4&url=https://pierre-alexandre.io/" alt="Website shields.io"></a>
+  <a href="https://shields.io/"><img src="https://img.shields.io/github/languages/code-size/Pierre-Alexandre35/Personal_website?color=blue" alt="GitHub code size in bytes"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License"></a>
+  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true" alt="Chat"></a>
+  <br>
+  <a href="https://app.saucelabs.com/builds/50f8372d79f743a3b25fb6ca4851ca4c"><img src="https://app.saucelabs.com/buildstatus/vuejs" alt="Build Status"></a>
+</p>
+
+<h2 align="center">pierre-alexandre.io</h2>
+<h3 align="center">Personal website & portfolio</h3>
+
+
 - Production website (Google Cloud Storage): [pierre-alexandre.io](https://pierre-alexandre.io)
 - Staging website (Github Pages): [pierre-alexandre35.github.io/pierre-alexandre.io](https://pierre-alexandre35.github.io/pierre-alexandre.io/public_html/)
 
