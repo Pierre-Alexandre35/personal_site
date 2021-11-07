@@ -3,9 +3,7 @@
 name: CI
 on:
   push:
-    branches: [ develop ]
-  pull_request:
-    branches: [ develop ]
+    branches: [ master ]]
   workflow_dispatch:
 
 jobs:
@@ -15,10 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      - name: Run a multi-line script
+      - name: Deployment to production server 
         run: |
-          echo deploy application
+          echo deploying new version on pierre-alexandre.io ...
           echo make deploy
