@@ -1,4 +1,4 @@
-<p align="center"><a href="https://pierre-alexandre.io" target="_blank" rel="noopener noreferrer"><img width="480" src="docs/log.png" alt="pierre-alexandre.io logo"></a></p>
+<p align="center"><a href="https://pierre-alexandre.io" target="_blank" rel="noopener noreferrer"><img width="480" src="docs/logo.png" alt="pierre-alexandre.io logo"></a></p>
 
 
 <p align="center">
