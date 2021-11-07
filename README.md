@@ -19,8 +19,11 @@ This website is 100% static and updated on a regular basis. I am also using my p
 - Staging website (Github Pages): [pierre-alexandre35.github.io/pierre-alexandre.io](https://pierre-alexandre35.github.io/pierre-alexandre.io/public_html/)
 
 ## Architecture
-
 ![alt text](docs/architecture.png)
+
+
+## Changelog
+Detailed changes for each merged pull requests are documented in the [CHANGELOG.md](https://github.com/Pierre-Alexandre35/pierre-alexandre.io/blob/develop/CHANGELOG.md)
 
 
 ## Roadmap
