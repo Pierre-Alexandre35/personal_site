@@ -10,8 +10,7 @@
   <br>
 </p>
 
-<h2 align="center">pierre-alexandre.io</h2>
-<h3 align="center">Personal website & portfolio</h3>
+<h2 align="center">Personal website and portfolio</h2>
 
 
 - Production website (Google Cloud Storage): [pierre-alexandre.io](https://pierre-alexandre.io)
