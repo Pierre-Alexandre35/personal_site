@@ -29,6 +29,7 @@ Detailed changes for each merged pull requests are documented in the [CHANGELOG.
 ## Roadmap
 - Fix some broken links for some of my projects
 - Fix navbar toggle for the mobiel version
+- Use Terraform for infra (GCS bucket)
 - Refactor public html code:
     - Review naming for classes
     - Only use classes rather than a mix of classes + IDs
