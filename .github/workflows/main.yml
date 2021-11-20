@@ -16,6 +16,6 @@ jobs:
           project_id: ${{ secrets.PROJECT_ID }}
           service_account_key: ${{ secrets.GCP_CI_SA }}
           export_default_credentials: true
-        run: |
-          echo deploying new version on pierre-alexandre.io ...
-          make deploy
+          run: |
+            echo deploying new version on pierre-alexandre.io ...
+            make deploy
