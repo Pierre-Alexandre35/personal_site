@@ -1,6 +1,5 @@
 <p align="center"><a href="https://pierre-alexandre.io" target="_blank" rel="noopener noreferrer"><img width="480" src="docs/logo.png" alt="pierre-alexandre.io logo"></a></p>
 
-
 <p align="center">
   <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/website.svg?color=60c454&url=https://pierre-alexandre.io/" alt="Website shields.io"></a>
   <a href="https://github.com/Pierre-Alexandre35/pierre-alexandre.io/actions/workflows/main.yml"><img src="https://github.com/Pierre-Alexandre35/pierre-alexandre.io/actions/workflows/main.yml/badge.svg" alt="Github Actions CI"></a>
