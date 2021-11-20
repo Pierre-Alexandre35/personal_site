@@ -1,6 +1,6 @@
 name: Deploy
 on:
-  merge:
+  push:
     branches: [ master ]
   workflow_dispatch:
 
