@@ -15,4 +15,4 @@ jobs:
       - name: Deployment to production server 
         run: |
           echo deploying new version on pierre-alexandre.io ...
-          echo make deploy
+          make deploy
