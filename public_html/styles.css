@@ -31,6 +31,7 @@ nav .nav-update {
   padding: 0px;
   margin: 0px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
@@ -38,10 +39,12 @@ nav ul {
   align-items: center;
   justify-content: center;
 }
+
 nav ul li {
   padding: 15px 0;
   cursor: pointer;
 }
+
 nav ul li.items {
   position: relative;
   width: auto;
@@ -49,6 +52,7 @@ nav ul li.items {
   text-align: center;
   order: 3;
 }
+
 nav ul li.items:after {
   position: absolute;
   content: "";
@@ -60,10 +64,12 @@ nav ul li.items:after {
   opacity: 0;
   transition: all 0.2s linear;
 }
+
 nav ul li.items:hover:after {
   opacity: 1;
   bottom: 8px;
 }
+
 nav ul li.logo {
   flex: 1;
   color: white;
@@ -72,33 +78,43 @@ nav ul li.logo {
   cursor: default;
   user-select: none;
 }
+
 nav ul li a {
   color: white;
   font-size: 18px;
   text-decoration: none;
   transition: 0.4s;
 }
+
 nav ul li:hover a {
   color: cyan;
 }
+
 nav ul li i {
   font-size: 23px;
 }
+
 nav ul li.btn {
   display: none;
 }
+
 nav ul li.btn.hide i:before {
   content: "\f00d";
 }
 
 .content {
-  margin-right: auto; /* 1 */
-  margin-left: auto; /* 1 */
+  margin-right: auto;
+  /* 1 */
+  margin-left: auto;
+  /* 1 */
 
-  max-width: 960px; /* 2 */
+  max-width: 960px;
+  /* 2 */
 
-  padding-right: 10px; /* 3 */
-  padding-left: 10px; /* 3 */
+  padding-right: 10px;
+  /* 3 */
+  padding-left: 10px;
+  /* 3 */
 }
 
 section {
@@ -136,6 +152,7 @@ section p {
 .personal-details {
   margin: 0 10px;
 }
+
 .personal-details ul {
   display: flex;
   flex-wrap: wrap;
@@ -259,7 +276,8 @@ section p {
 }
 
 .projects .cards .card .project-links a {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
+  /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -478,6 +496,7 @@ section p {
   font-size: 26pt;
   font-weight: 900;
 }
+
 .input-field label {
   position: absolute;
   bottom: 0px;
@@ -512,14 +531,14 @@ section p {
   bottom: 200px;
 }
 
-.input-field .user-input:focus + .label .content,
-.input-field .user-input:valid + .label .content {
+.input-field .user-input:focus+.label .content,
+.input-field .user-input:valid+.label .content {
   transform: translateY(-150%);
   font-size: 14px;
 }
 
-.input-field .user-input:focus + .label::after,
-.input-field .user-input:valid + .label::after {
+.input-field .user-input:focus+.label::after,
+.input-field .user-input:valid+.label::after {
   transform: translateX(0%);
 }
 
@@ -601,23 +620,29 @@ footer p {
   h1 {
     text-align: center;
   }
+
   nav {
     padding: 5px 30px;
   }
+
   nav ul li.items {
     width: 100%;
     display: none;
   }
+
   nav ul li.items.show {
     display: block;
   }
+
   nav ul li.btn {
     display: block;
   }
+
   nav ul li.items:hover {
     border-radius: 5px;
     box-shadow: inset 0 0 5px #33ffff, inset 0 0 10px #66ffff;
   }
+
   nav ul li.items:hover:after {
     opacity: 0;
   }
